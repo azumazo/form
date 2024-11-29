@@ -42,27 +42,42 @@
       </div>
           <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
           <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
-          <h1><a href="https://www.api-wat.com/" rel="dofollow">ฟอร์ม HTML</a></h1>
+          <h1><a href="https://www.api-wat.com/" rel="dofollow">ฟอร์ม แจ้งเบิก</a></h1>
         </div>
         <div class="formbg-outer">
           <div class="formbg">
             <div class="formbg-inner padding-horizontal--48">
               <span class="padding-bottom--15">รายละเอียด</span>
               <form id="stripe-login" method="post" name="myForm">
-
+                
+                <div class="field padding-bottom--24">
+                  <label for="email">รหัสพนักงาน</label>
+                  <input type="text" id="codeid" name="codeid" placeholder="รหัสพนักงาน" required>
+                </div>
+                
                 <div class="field padding-bottom--24">
                   <label for="name">ชื่อ สกุล</label>
                   <input type="name" name="name" placeholder="ชื่อ สกุล" required>
                 </div>
 
                 <div class="field padding-bottom--24">
-                    <label for="line">ไลน์ไอดี</label>
-                    <input type="text" id="line" name="line" placeholder="line id" required>
+                    <label for="line">เบอร์โทร</label>
+                    <input type="text" id="Phone" name="Phone" placeholder="เบอร์โทร" required>
                   </div>
 
                 <div class="field padding-bottom--24">
-                  <label for="email">อีเมล</label>
-                  <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                  <label for="email">ทะเบียนรถ</label>
+                  <input type="text" id="Carnum" name="Carnum" placeholder="ทะเบียนรถ" required>
+                </div>
+                
+                <div class="field padding-bottom--24">
+                  <label for="email">ประเภทรถ</label>
+                  <input type="text" id="Carteyp" name="Carteyp" placeholder="ประเภทรถ" required>
+                </div>
+                
+                <div class="field padding-bottom--24">
+                  <label for="email">ยอดเบิก</label>
+                  <input type="text" id="Jobmoney" name="Jobmoney" placeholder="ยอดเบิก" required>
                 </div>
                 
                 <div class="field padding-bottom--24">
