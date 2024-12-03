@@ -45,6 +45,7 @@
     justify-content: center;
   }
   .box-root {
+    background-image: url('/699287.jpg');
     box-sizing: border-box;
   }
   .flex-direction--column {
