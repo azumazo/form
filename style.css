@@ -8,13 +8,12 @@
   }
   body {
     min-height: 100%;
-    background-color: href="699287.jpg";
   }
   h1 {
     letter-spacing: -1px;
   }
   a {
-    color: #007bff;
+    color: #ff0000;
     text-decoration: unset;
   }
   .login-root {
@@ -45,7 +44,7 @@
     justify-content: center;
   }
   .box-root {
-    background-image: url('/699287.jpg');
+    background-image: url('backdbk1.jpg');
     box-sizing: border-box;
   }
   .flex-direction--column {
@@ -73,6 +72,7 @@
   }
   .padding-top--64 {
     padding-top: 64px;
+    
   }
   .padding-top--24 {
     padding-top: 24px;
@@ -100,6 +100,7 @@
     width: 100%;
     max-width: 448px;
     background: white;
+    opacity: 0.95;
     border-radius: 4px;
     box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px,
       rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
@@ -138,7 +139,7 @@
     border: unset;
     border-radius: 4px;
     outline-color: rgb(84 105 212 / 0.5);
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
       rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
       rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
@@ -146,7 +147,7 @@
   }
   
   input[type="submit"] {
-    background-color: #007bff;
+    background-color: #ff0000;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
       rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgb(84, 105, 212) 0px 0px 0px 1px,
       rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
